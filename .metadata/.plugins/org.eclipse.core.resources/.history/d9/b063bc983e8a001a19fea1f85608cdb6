@@ -1,0 +1,22 @@
+package conditionalStatements;
+
+public class ifelseifCondition {
+
+	public static void main(String[] args) {
+		
+		int sunday = 5;
+		
+		if(sunday<5) {
+			System.out.println("This month consist of 5 sundays as the month start from the sunday");
+		}
+		else if(sunday==4) {
+			System.out.println("This month has only four sundays and the month doesnt start from sunday");
+		}
+		
+//		else {
+//			System.out.println("Invalid data entry");
+//		}
+
+	}
+
+}

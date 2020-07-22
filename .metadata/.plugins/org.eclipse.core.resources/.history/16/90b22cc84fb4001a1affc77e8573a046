@@ -1,0 +1,33 @@
+package Arrays;
+import java.util.Scanner;
+
+public class averageMarks {
+
+	public static void main(String[] args) {
+		// Here we should take the marks as a user input for the
+//		students then find the average of it.
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the number of students");
+		
+		int n = sc.nextInt();
+		
+		int[] marks = new int[n];
+		System.out.println("Enter the marks now");
+		
+		for(int i=0; i<n; i++) {
+			marks[i]=sc.nextInt();
+		}
+		
+		int avgMarks = 0;
+		
+		for(int i=0; i<n; i++) {
+			avgMarks += marks[i];
+			System.out.println(avgMarks);
+		}
+//		avgMarks /=n;
+//		System.out.println("The average marks are" +avgMarks);
+	}
+
+}

@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+C:\Users\Madhumita Goswami\eclipse-workspace\Average\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1866453335.index
+2358565748.index
+2928669162.index
+3502340441.index

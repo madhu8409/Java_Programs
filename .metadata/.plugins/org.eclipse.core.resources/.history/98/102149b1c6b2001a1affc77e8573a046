@@ -1,0 +1,25 @@
+package Arrays;
+
+public class arrayIntro {
+
+	public static void main(String[] args) {
+		// Introduction for arrays
+		
+//		int[] marks = new int[10]; this is a type1 declaration of arrays
+		
+//		int[] marks;
+//		marks = new int[10]; This is a type2 array declaration
+		
+		
+//		int marks [] = new int[10]; we can declare it in the following ways
+		
+//		Declaring multiple array in the single line
+		
+//		int[] classRank, rollNumbers;
+		
+		int[] marks = new int[5];
+		System.out.println(marks[5]);
+
+	}
+
+}
