@@ -20,28 +20,24 @@ public class Program3 {
 			
 			for(int j=i+1; j<arr.length; j++) {
 				
-						if(arr[i] == arr[j]) {
-					
-
-					count++;
-					
 				
+				
+				
+				if(arr[i] == arr[j]) {
+					
+					System.out.println(arr[i] +"   "+"  "+ arr[j]);
+					count++;
 
 					fr[j] = visited;
 
 				}
 				
 			}
-			System.out.println(count);
-//			System.out.println("  "+fr[i] + "  "+ visited);
 			
 				if(fr[i]!=visited) {
-//					System.out.println(fr[i] + "    "+ visited);
-					
+		
 						fr[i]=count;
-						
-//						System.out.println(fr[i] + " "+ count);
-						
+			
 		}
 		}
 		

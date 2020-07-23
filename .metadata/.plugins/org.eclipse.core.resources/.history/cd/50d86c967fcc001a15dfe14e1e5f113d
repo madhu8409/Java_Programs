@@ -24,19 +24,16 @@ public class Program3 {
 					
 
 					count++;
-					
-				
 
 					fr[j] = visited;
 
 				}
 				
 			}
-			System.out.println(count);
-//			System.out.println("  "+fr[i] + "  "+ visited);
+//			System.out.println("  "+fr[i]);
 			
 				if(fr[i]!=visited) {
-//					System.out.println(fr[i] + "    "+ visited);
+					System.out.println(fr[i] + "    "+ visited);
 					
 						fr[i]=count;
 						
@@ -45,12 +42,12 @@ public class Program3 {
 		}
 		}
 		
-//		System.out.println(" Element | Frequency");
-//		for(int i=0;i<fr.length; i++) {
-//			if(fr[i]!=visited)
-//			System.out.println("    " + arr[i] + "    |     " + fr[i]);
-//		}
-//		System.out.println();
+		System.out.println(" Element | Frequency");
+		for(int i=0;i<fr.length; i++) {
+			if(fr[i]!=visited)
+			System.out.println("    " + arr[i] + "    |     " + fr[i]);
+		}
+		System.out.println();
 
 	}
 

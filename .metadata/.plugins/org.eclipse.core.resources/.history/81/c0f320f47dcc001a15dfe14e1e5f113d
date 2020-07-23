@@ -24,25 +24,20 @@ public class Program3 {
 					
 
 					count++;
-					
-				
 
 					fr[j] = visited;
 
 				}
 				
 			}
-			System.out.println(count);
-//			System.out.println("  "+fr[i] + "  "+ visited);
 			
-				if(fr[i]!=visited) {
-//					System.out.println(fr[i] + "    "+ visited);
-					
-						fr[i]=count;
-						
+//				if(fr[i]!=visited) {
+//		
+//					
+//						fr[i]=count;
 //						System.out.println(fr[i] + " "+ count);
-						
-		}
+//						
+//		}
 		}
 		
 //		System.out.println(" Element | Frequency");
