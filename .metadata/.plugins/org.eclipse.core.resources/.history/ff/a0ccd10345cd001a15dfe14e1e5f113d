@@ -19,11 +19,14 @@ public class Program3 {
 			int count = 1;
 			
 			for(int j=i+1; j<arr.length; j++) {// when the condition satisfies here the next immediate statement starts executing.
-					
-				if(arr[i] == arr[j]) {
+				System.out.println(arr[i] + "   " + arr[j]);
 				
+				if(arr[i] == arr[j]) {
+					
+					
+					
 					count++;
-												
+					
 					arr[j]=eleVisited;
 				}
 			}
