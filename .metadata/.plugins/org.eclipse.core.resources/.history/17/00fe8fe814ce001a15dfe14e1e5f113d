@@ -30,8 +30,6 @@ public class arrayRotation {
 			arr[j] = temp; // storing back the temporary variable in the array[j].
 		}
 		
-		// Printing an array from here
-		
 		System.out.println("\n");
 		System.out.println("The array after rotation:  \n");
 		for(int i=0; i<n;i++) {
