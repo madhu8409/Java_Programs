@@ -1,0 +1,16 @@
+package Arrays;
+
+public class evenPosition {
+
+	public static void main(String[] args) {
+		// Printing all the elements present in the even position
+		
+		int arr[] = {2,1,4,3,6,5};
+		
+		for(int i=1; i<arr.length; i=i+2) {
+			System.out.println(arr[i]);
+		}
+
+	}
+
+}
