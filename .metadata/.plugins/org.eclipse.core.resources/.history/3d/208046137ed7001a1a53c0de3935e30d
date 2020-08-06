@@ -1,0 +1,12 @@
+package Arrays;
+
+public class largestElement {
+
+	public static void main(String[] args) {
+		// printing the largest element in the array
+		
+		
+
+	}
+
+}
